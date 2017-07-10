@@ -4,7 +4,8 @@
   "description": "YelpCamp v1",
   "main": "app.js",
   "now": {
-    "dotenv": ""
+    "dotenv": "variables.env.now",
+    "alias": "yelpcamp"
   },
   "scripts": {
     "start": "node ./app.js"
